@@ -26,3 +26,4 @@ vector_store = QdrantVectorStore.from_documents(
     embedding=embeddings,
     force_recreate=True
 ) 
+print("pdf analysis done !!")
